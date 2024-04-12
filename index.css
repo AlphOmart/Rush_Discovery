@@ -1,0 +1,26 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body, html {
+	height: 100%;
+	width: 100vw;
+	background: linear-gradient(0deg, #4d8d9a, #c9c9c9, #c9c9c9, #4d8d9a);
+}
+
+.parallax1 {
+	/* The image used */
+	/* background-image: url(no_man_sky.jpg); */
+
+	/* Full height */
+	height: 100%;
+	width: 100%;
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
